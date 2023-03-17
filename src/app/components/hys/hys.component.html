@@ -1,0 +1,44 @@
+<section id="habilidades" class="habilidades"> 
+    <div class="container">
+        <h4 class="titulo1">Habilidades y experiencia
+        
+            <button type="button" routerLink="/newskill" class="btn btn-dark col-lg-2" *ngIf="isLogged">Nueva Skill</button>
+         
+        </h4>
+        <p class="mb-4">Con capacidades para Establecer los 
+            requerimientos de un sitio web,app o lading page e implementar su solución informática, junto al esuipo de trabajo ya 
+            que tengo habilidades para comunicarme efectivamente con clientes, usuarios y personal técnico dentro de una organización.</p>
+    
+        
+        <div class="row">
+            <div class="text-center col-sm-4 col-md-4 col-lg-2" *ngFor="let skill of skill" >
+                <circle-progress
+                [percent]="(skill.porcentaje)"
+                [radius]="50"
+                [showUnits]="false"
+                [title]="(skill.nombre)"
+                [showTitle]="true"
+                [titleFontSize]="'15px'"
+                [showSubtitle]="false"
+                [outerStrokeWidth]="15"
+                [innerStrokeWidth]="5"
+                [outerStrokeColor]="'#004AAD'"
+                [innerStrokeColor]="'#000000'"
+                [animation]="true"
+                [animationDuration]="600"
+              ></circle-progress>
+              <p>{{skill.porcentaje}} % </p>
+
+              <button class="btn btn-light icono" routerLink="/editskill/{{skill.id}}" *ngIf="isLogged">
+                <i class="bi bi-pencil"></i><i class="fa-solid fa-pencil"></i></button>
+  
+                <button class="btn btn-light icono2 " (click)="delete(skill.id)" *ngIf="isLogged">
+                  <i class="bi bi-trash3"></i><i class="fa-solid fa-trash-can"></i>
+                </button>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+

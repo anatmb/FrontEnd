@@ -1,0 +1,24 @@
+<section class="formacion" id="educacion">
+  <div class="educacion1 container">
+    <h1 class="text-center titulo1">Formación académica
+      <button type="button" class="btn btn-dark col-lg-2" routerLink="/nuevaedu" *ngIf="isLogged">
+        Agregar Formación
+      </button>
+    </h1>
+    <p class="mb-4 text-center ">Espacio dedica a todos los proyectos realizado durante mi trayectoria como fullstack Developer</p>
+
+    <section class="educacion">
+      <div class="cont-expert"  *ngFor="let Educacion of educacion">
+        <img  src={{Educacion.imgE}} class="rounded-circle w-25 img1" alt="educacion" title="...">
+          <h3 class="n-expert">{{Educacion.nombreE}}
+            <button class="btn btn-light icono" routerLink="/editedu/{{Educacion.id}}" *ngIf="isLogged">
+              <i class="bi bi-pencil"></i><i class="fa-solid fa-pencil"></i></button>
+            <button class="btn btn-light icono2 " (click)="delete(Educacion.id)" *ngIf="isLogged">
+              <i class="bi bi-trash3"></i><i class="fa-solid fa-trash-can"></i></button>
+          </h3>
+          <p class="parrafo">{{Educacion.descripcionE}}</p>
+      </div>
+    </section>
+
+  </div>
+</section>

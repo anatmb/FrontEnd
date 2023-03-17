@@ -1,0 +1,17 @@
+.fondo{
+   
+    background-image: url(../../../assets/img/banner2.3.png);
+    width: 100vw;
+    height: 100vh;  
+}
+
+.container{
+    padding-top: 15px;
+    padding-bottom: 10px;
+
+    justify-content: center;
+    align-items: center;  
+    background-color: #004badc5;
+    color: white;
+}
+

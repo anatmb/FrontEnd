@@ -1,0 +1,144 @@
+/*============Educacion===============*/
+.titulo1{
+    padding-bottom: 2px;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    color: #004AAD;
+    text-align: center;
+    justify-content: center;
+   /* background-color: springgreen;*/
+    margin-left: 0rem;
+    width: 100%;
+}
+.parrafo1{
+    color: #004AAD;  
+}
+.container{
+    margin-top: 30px;
+}
+
+.estudios{
+    background: #e6e3e3;
+    padding-top: 2px;
+   /* background: #1dd195;*/
+}
+
+.educacion{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+   /*background: #bd0d0d;*/
+   padding-top: 15px;
+   
+   }
+   .cont-expert{
+       width: 30%;
+       text-align: center;
+       margin-bottom: 20px;  
+    }
+   
+   .cont-expert img{
+       width:50%;
+       display:block;
+       margin: 0 auto;
+       border-radius: 200px;
+       
+   }
+   .n-expert{
+       display:inline-block;
+       margin-top: 20px;
+       width:100%;
+       font-weight: 400;
+   }
+   
+   .parrafo{
+       font-size: 13px;
+       color: #6d6c6c;
+   }
+
+   
+@media screen and (max-width:991px)
+{
+   
+    h1{
+        font-size: 40px;  
+        text-align: center;
+    }
+    h3{
+        text-align: center;
+    }
+
+    .mover-boton{
+        text-align: center;
+    }
+
+    .boton{
+        background-color: #1B9DF0;
+        border-radius: 200px;
+        padding: 10px;
+        color: black;
+        font-size: 20px;
+        text-decoration: none; 
+    }
+    
+    .boton:hover{
+        background-color: rgb(204, 200, 200);
+       
+        border-radius: 200px;
+        color: white;  
+    }
+
+   .parrafo{
+       margin-top:1px;
+       padding: 30px;
+   }
+
+   .cont-expert{
+    width: 80%;
+}  
+
+}
+
+@media screen and (max-width:551px)
+{
+    h1{
+        font-size: 30px;  
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width:343px)
+{
+    .parrafo{
+        /* background-color: rgb(179, 211, 62);*/
+        /*background-color: rgb(230, 120, 120);*/
+         margin-top:40px; 
+         justify-items: center;
+         margin: auto;
+         padding: 30px;
+      }
+
+    h1{
+        font-size: 20px;  
+        text-align: center;
+        
+    }
+    h3{
+        text-align: center;
+        font-size: 15px; 
+       
+    }
+    p{
+        font-size: 10px;  
+       
+    }
+    .imagen1{
+        padding-left:1px;
+        /*background-color: brown;*/
+        height:auto;
+    } 
+
+}

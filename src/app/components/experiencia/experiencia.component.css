@@ -1,0 +1,41 @@
+
+.experiencia{
+    width: 100%;
+    height: auto;
+    padding:0px;
+    margin-bottom: 5px;
+}
+.titulo1{
+    padding-bottom: 10px;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    color: #004AAD;
+    text-align: center;
+    justify-content: center;
+   /* background-color: springgreen;*/
+    margin-left: 0rem;
+    width: 100%;
+}
+.parrafo1{
+    color: #004AAD;  
+}
+.log{
+    text-align: center;
+    justify-content: center;
+    color: #004AAD; 
+
+}
+
+.icono{
+    font-size: 20px;
+    padding: 0px;
+    color: #004AAD; 
+}
+.icono2{
+    font-size: 20px;
+    padding: 0px;
+    color: #680202; 
+}
+
+

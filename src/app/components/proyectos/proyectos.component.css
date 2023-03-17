@@ -1,0 +1,45 @@
+#project>.container{
+    text-align: center;
+    justify-content: center;
+    padding: 20px;  
+}
+.titulo1{
+    padding-bottom: 10px;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    color: #004AAD;
+    text-align: center;
+    justify-content: center;
+   /*background-color: springgreen;*/
+    margin-left: 0rem;
+    width: 100%;
+}
+
+
+/*** Project Portfolio ***/
+.portfolio-img {
+    position: relative;
+    border-style: solid;
+}
+
+.portfolio-btn {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #000000b6;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 30px;
+    padding-bottom: 100px !important;
+    opacity: 0;
+    transition: .5s;
+}
+
+.portfolio-item:hover .portfolio-btn {
+    opacity: 1;
+    padding-bottom: 30px !important;
+}

@@ -1,0 +1,30 @@
+<!---EXPERIENCIA-->
+<section id="experiencia" class="experiencia">
+  <div class="container">
+      <h4 class="titulo1">Experiencia
+     
+        <button type="button" class="btn btn-dark col-lg-2" routerLink="/nuevaexp" *ngIf="isLogged">
+            Nueva Experiencia
+        </button>
+      </h4>
+      <div class="row" *ngFor="let Experiencia of expe">
+        <div class="col-md-4 log">
+          <i class="fa fa-bandcamp fa-5x" aria-hidden="true"></i>
+        </div>
+        <div class="col-md-8 exp" >
+          <h4 class="titulo">{{Experiencia.nombreE}}
+            <button class="btn btn-light icono" routerLink="/editexp/{{Experiencia.id}}" *ngIf="isLogged">
+              <i class="bi bi-pencil"></i><i class="fa-solid fa-pencil"></i></button>
+
+              <button class="btn btn-light icono2 " (click)="delete(Experiencia.id)" *ngIf="isLogged">
+                <i class="bi bi-trash3"></i><i class="fa-solid fa-trash-can"></i></button>
+          </h4>
+          <p class="parrafo1">{{Experiencia.periodoE}}</p>
+          <ul>
+            <li>{{Experiencia.descripcionE}}
+            </li>
+          </ul>
+        </div>
+      </div>
+  </div>
+</section>

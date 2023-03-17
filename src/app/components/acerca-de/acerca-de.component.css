@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Dancing+Script:wght@400;500;600;700&family=Fascinate&family=Great+Vibes&family=Lobster&family=Oleo+Script:wght@400;700&family=Pacifico&family=Parisienne&family=Playball&family=Roboto:ital,wght@0,100;0,300;0,700;1,400;1,900&family=Smooch&family=The+Nautigal:wght@400;700&family=Titan+One&family=Yellowtail&display=swap');
+.about>.container{
+    text-align: center;
+    justify-content: center;
+    
+}
+.rounded-circle.w-25{
+    width: 10rem !important;
+    z-index: 1;
+   /* background-color: cornsilk;*/
+    margin-top:-5rem;
+   margin-left: 0rem;
+}
+.img1{
+   margin: auto;
+   background-color: crimson;
+    width: 100%;
+}
+.nombre{
+    margin-top:0rem;
+    /*background-color: snow;*/
+    margin-left: 0rem;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    
+}
+.titulo1{
+    padding-bottom: 10px;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    color: #004AAD;
+    text-align: center;
+    justify-content: center;
+   /* background-color: springgreen;*/
+    margin-left: 0rem;
+    width: 100%;
+}

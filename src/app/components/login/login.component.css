@@ -1,0 +1,14 @@
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #94a8eb;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgb(63, 81, 243), rgb(240, 241, 243));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(63, 81, 243), rgba(240, 241, 243))
+    }
+
+    .fondo{
+        background-image: url(../../../assets/img/banner6.png);
+    }

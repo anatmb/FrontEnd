@@ -1,0 +1,47 @@
+.navbar.navbar-expand-lg.bg-primary{
+    background-color: rgb(12, 12, 12) !important;
+}
+i.fa.fa-instagram.fa-x{
+    color: rgb(22, 21, 21);
+    font-size: 25px;
+}
+i.fa.fa-github.fa-x{
+    color: rgb(24, 23, 23);
+    font-size: 25px;   
+}
+i.fa.fa-linkedin-square.fa-x{
+    color: rgb(15, 15, 15);
+    font-size: 25px;
+}
+i.fa.fa-user-circle{
+    color: rgb(14, 13, 13);
+    font-size: 25px; 
+}
+
+i.fa.fa-instagram.fa-x:hover{
+    color: #0272f1;
+}
+
+i.fa.fa-linkedin-square.fa-x:hover{
+    color: #0272f1;
+}
+
+i.fa.fa-github.fa-x:hover{
+    color: #0272f1;
+}
+
+i.fa.fa-user-circle:hover{
+   color: #0272f1;
+}
+i.fa.fa-bandcamp{
+    color: #004AAD;
+}
+
+ul.list-group.list-group-horizontal{
+    --bs-list-group-bg:transparent;
+    --bs-list-group-border-color:transparent;  
+}
+#menu{
+    /* background: salmon;*/
+     justify-content: right;
+ }
