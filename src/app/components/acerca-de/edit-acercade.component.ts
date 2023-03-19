@@ -37,7 +37,7 @@ persona: persona = null;
       data => {
         this.router.navigate(['']);
       }, err => {
-        alert("Error al modificar personaaaaaaaaaaaaaaa" + id);
+        alert("Error al modificar" + id);
         this.router.navigate(['']);
       }
     )

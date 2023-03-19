@@ -14,8 +14,9 @@ export const environment = {
     measurementId: 'G-D24G5NM4SK',
   },
   production: false,
-  URL:'http://localhost:8080',
+  //URL:'http://localhost:8080',
   //URL: para colocar las prodcuccion
+   URL:'https://bankendfinal.onrender.com',
 };
 
 /*
