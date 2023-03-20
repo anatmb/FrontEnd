@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "frontendfinal-d212e"
-  }
+    "default": "frontendfinal-d212e",
+    "frontendfinal-d212e": "frontendfinal-d212e"
+  },
+  "targets": {},
+  "etags": {}
 }

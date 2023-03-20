@@ -9,5 +9,6 @@ export const environment = {
     messagingSenderId: '531948164727',
     measurementId: 'G-D24G5NM4SK',
   },
-  production: true
+  production: true,
+  URL: 'https://bankendfinal.onrender.com'
 };
